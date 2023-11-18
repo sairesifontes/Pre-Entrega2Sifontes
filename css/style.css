@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: linear-gradient(rgba(60, 60, 63, 0.5), rgba(19, 19, 18, 0.5)),
+    url("../img/bebidas-alcoholicas-patron-sin-fisuras-botellas-vasos-para-restaurantes-y-bares-m7rc09.jpg");
+    background-repeat: repeat;
+    font-family: 'Source Code Pro', monospace;
+    
+}
+
+/* titulo */
+
+.titulo{
+    margin: 30px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 70px;
+}
+
+.container-titulo{
+    background-color: rgba(212, 222, 231, 0.877);
+    margin-top: 15px;
+    border-radius: 50px;
+}
+
+
+/* tabla */
+
+.containerTable{
+    background-color: aliceblue;
+    margin-top: 70px;
+}
+
+.tituloTabla{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+table, td{
+    margin: 20px;
+    border: 2px solid black;
+    text-align: center;
+    padding: 10px;
+}
+
+/* funciones */
+
+.funcionesInteractivas{
+    background-color: aliceblue;
+    width: 300px;
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+/* footer */
+
+.container-footer{
+    width: 40%;
+    background-color: rgba(7, 7, 7, 0.877);
+    border-radius: 20px;
+    color: rgb(241, 237, 237);
+    
+}
+
+.footer{
+    text-align: center;
+    display: flex;
+    justify-content: right;
+}
